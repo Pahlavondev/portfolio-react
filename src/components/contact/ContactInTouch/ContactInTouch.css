@@ -1,0 +1,49 @@
+.contact-title {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.contact-touch {
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  height: 60px;
+  color: #111;
+  line-height: 38px;
+  padding: 10px 30px;
+  border: 1px solid #ddd;
+  background-color: #fdfdfd;
+  border-radius: 3px;
+}
+
+.contact-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contact-textarea {
+  outline: none;
+  resize: none;
+  width: 100%;
+  font-size: 18px;
+  color: #111;
+  padding: 10px 30px;
+  border: 1px solid #ddd;
+  background-color: #fdfdfd;
+  border-radius: 3px;
+  margin: 25px 0;
+}
+
+.contact-button {
+  font-size: 25px;
+  padding: 15px 40px;
+  color: #757575;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #fdfdfd;
+  border-radius: 3px;
+}

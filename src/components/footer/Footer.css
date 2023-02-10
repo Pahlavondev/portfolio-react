@@ -1,0 +1,111 @@
+.footer-container {
+  width: 100%;
+}
+
+.footer-content {
+  padding: 120px 0 270px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 54px;
+}
+
+.footer-list {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item {
+  margin-right: 35px;
+}
+
+.footer-item:last-child {
+  margin-right: 0;
+}
+
+.footer-link {
+  font-size: 35px;
+  color: #21243d;
+}
+
+.footer-text {
+  margin: 0;
+  margin-top: 26px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  color: #21243d;
+}
+
+.footer-bg {
+  position: absolute;
+  bottom: 0;
+  background: url("https://droitthemes.com/html/saasland/img/seo/footer_bg.png")
+    no-repeat scroll center 0;
+  width: 100%;
+  height: 270px;
+}
+
+.footer-bg-one {
+  background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif")
+    no-repeat center center;
+  width: 330px;
+  height: 105px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  -webkit-animation: myfirst 20s linear infinite;
+  animation: myfirst 20s linear infinite;
+}
+
+.footer-bg-two {
+  background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif")
+    no-repeat center center;
+  width: 88px;
+  height: 100px;
+  background-size: 100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 30s linear infinite;
+  animation: myfirst 30s linear infinite;
+}
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
